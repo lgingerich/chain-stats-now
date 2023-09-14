@@ -1,0 +1,36 @@
+Database Schema:
+
+    Blockchain Table:
+
+    Purpose: Store metadata about each blockchain.
+    Columns:
+        ID: A unique identifier for each blockchain. This is incremented and does not
+            correspond to the notion of chain ID's present in EVM chains.
+        Chain_Name: The name of the blockchain (e.g., Ethereum, zkSync Era, etc.).
+        Chain_Slug: The cleaned name of the blockchain (e.g., ethereum, zksync_era, etc.).
+
+
+    Block Table:
+
+    Purpose: Store data for each block.
+    Columns:
+        ID: A unique identifier for each block.
+        Chain_ID: A unique identifier for each blockchain. This is incremented and does
+            not correspond to the notion of chain ID's present in EVM chains.
+        Block_Number: The block number.
+        Parent_Hash: Hash of the parent block.
+        Block_Timestamp: Time the block was mined.
+        Transaction_Count: Number of transactions in the block.
+
+
+    TPS Tables:
+
+    Purpose: Store time-series tps data for each blockchain.
+    Columns:
+        ID: A unique identifier for each chain and timestamp.
+        Chain_ID: A unique identifier for each blockchain. This is incremented and does
+            not correspond to the notion of chain ID's present in EVM chains.
+        Block_Timestamp: Time the block was mined.
+        TPS_Min: Minimum TPS over the given interval.
+        TPS_Avg: Average TPS over the given interval.
+        TPS_Max: Maximum TPS over the given interval.

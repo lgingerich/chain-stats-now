@@ -1,0 +1,6 @@
+CREATE TABLE Blockchain (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    Chain_ID INT NOT NULL,
+    Chain_Name VARCHAR(255) NOT NULL,
+    Chain_Slug VARCHAR(255) NOT NULL
+);
