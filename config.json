@@ -1,0 +1,46 @@
+{
+	"global_settings": {
+		"fetch_interval": 5,
+		"alert_threshold": 20
+	},
+	"chains": [
+		{
+			"Chain_ID": "1",
+			"Chain_Name": "Ethereum",
+			"Chain_Slug": "ethereum",
+			"rpc_url": "wss://mainnet.infura.io/ws/v3/YOUR_INFURA_KEY",
+			"reorg_depth": 15
+		},
+		{
+			"Chain_ID": "2",
+			"Chain_Name": "Arbitrum One",
+			"Chain_Slug": "arbitrum_one",
+			"rpc_url": "",
+			"reorg_depth": 15
+		},
+        {
+			"Chain_ID": "3",
+			"Chain_Name": "OP Mainnet",
+			"Chain_Slug": "op_mainnet",
+			"rpc_url": "",
+			"reorg_depth": 15
+		},
+	]
+}
+
+Base                    base
+zkSync Era              zksync_era
+Polygon zkEVM           polygon_zkevm
+Mantle                  mantle
+Scroll                  scroll
+Linea                   linea
+Metis Andromeda         metis_andromeda
+Boba Network            boba_network
+StarkNet                starknet
+Arbitrum Nova           arbitrum_nova
+Zora Network            zora_network
+Public Goods Network    public_goods_network
+
+Avalanche               avalanche
+Polygon POS             polygon_pos
+Gnosis                  gnosis
