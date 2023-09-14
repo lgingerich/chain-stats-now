@@ -1,3 +1,7 @@
+TO DO:
+
+    backup wss
+
 Database Schema:
 
     Blockchain Table:
@@ -34,3 +38,22 @@ Database Schema:
         TPS_Min: Minimum TPS over the given interval.
         TPS_Avg: Average TPS over the given interval.
         TPS_Max: Maximum TPS over the given interval.
+
+chains to add:
+
+Base base
+zkSync Era zksync_era
+Polygon zkEVM polygon_zkevm
+Mantle mantle
+Scroll scroll
+Linea linea
+Metis Andromeda metis_andromeda
+Boba Network boba_network
+StarkNet starknet
+Arbitrum Nova arbitrum_nova
+Zora Network zora_network
+Public Goods Network public_goods_network
+
+Avalanche avalanche
+Polygon POS polygon_pos
+Gnosis gnosis
